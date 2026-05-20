@@ -1,4 +1,4 @@
-page.js
+
 import { motion } from 'framer-motion' 
 import { 
 Search, 
