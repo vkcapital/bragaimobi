@@ -1,5 +1,21 @@
 page.js
-import { motion } from 'framer-motion' import { Search, MapPin, BedDouble, Bath, Car, Building2, ArrowRight, Phone, Instagram, MessageCircle, Heart, ShieldCheck, Star, Crown } from 'lucide-react'
+import { motion } from 'framer-motion' 
+import { 
+Search, 
+MapPin, 
+BedDouble, 
+Bath, 
+Car, 
+Building2, 
+ArrowRight, 
+Phone, 
+Instagram, 
+MessageCircle, 
+Heart, 
+ShieldCheck, 
+Star, 
+Crown
+} from 'lucide-react'
 
 const properties = [ { id: 1, title: 'Casa Alto Padrão Damha', location: 'Campo Grande - MS', price: 'R$ 2.890.000', beds: 4, baths: 5, garage: 3, image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop' }, { id: 2, title: 'Cobertura Exclusiva', location: 'Centro • Campo Grande', price: 'R$ 1.950.000', beds: 3, baths: 4, garage: 2, image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1200&auto=format&fit=crop' }, { id: 3, title: 'Residência Condomínio Fechado', location: 'Campo Grande - MS', price: 'R$ 3.450.000', beds: 5, baths: 6, garage: 4, image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop' } ]
 
